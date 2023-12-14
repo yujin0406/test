@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Hedvig Letters Serif', serif;
+    src: url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap');
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+a:link{color: #CFA64D;}
+a:hover{color: #CFA64D;}
+a:active{color: #CFA64D;}
+a:visited{color: #CFA64D;}
+nav{
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+nav ul{
+    width: 1700px;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li img{
+    width: 208;
+    height: 117px;
+    padding-top: 10px;
+}
+nav ul li{}
+nav ul li a{
+    display: block;
+    width: 220px;
+    text-align: center;
+    font-family: 'Hedvig Letters Serif', serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 28px;
+    letter-spacing: -0.6px;
+}
+.bt{margin-top: 50px;}
+section{
+    height: 2907px;
+    background-image: url(img/page1.png);
+    background-repeat: no-repeat;
+    background-color: darkgoldenrod;
+}
